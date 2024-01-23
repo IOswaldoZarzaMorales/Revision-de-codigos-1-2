@@ -1,0 +1,76 @@
+body {
+  background: linear-gradient(to right, #f0c27b, #4b1248);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  height: 100vh;
+  font-family: 'Verdana', sans-serif;
+}
+
+h1, h2 {
+  color: #4b1248;
+  margin-bottom: 10px;
+}
+
+.formulario {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.formulario label {
+  margin-bottom: 5px;
+  font-size: 16px;
+  color: #4b1248;
+}
+
+.formulario input,
+.formulario select {
+  margin-bottom: 10px;
+  padding: 8px;
+  border: none;
+  border-radius: 5px;
+}
+
+.error {
+  background-color: #ffcccc;
+}
+
+.elemento-lista {
+  color: #4b1248;
+  margin: 20px;
+  padding: 10px;
+  border: 5px solid #4b1248;
+  border-radius: 10px;
+  width: 400px;
+}
+
+.elemento-lista span {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 16px;
+  color: #4b1248;
+}
+
+#lista-de-invitados {
+  margin-top: 20px;
+}
+
+button {
+  padding: 8px;
+  background-color: #4b1248;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #350b38;
+}
